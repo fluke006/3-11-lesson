@@ -1,0 +1,68 @@
+body{
+   background-color: #333;
+}
+
+.container{
+   width: 1340px;
+   margin: 0 auto;
+   padding: 20px;
+}
+
+.box{
+   width: 500px;
+   display: block;
+   flex-direction: column;
+   margin: 0 auto;
+   padding: 10px;
+}
+
+.user__verb{
+   display: block;
+   width: 300px;
+   margin-bottom: 20px;
+   padding: 10px;
+}
+
+.user__name{
+   display: block;
+   width: 300px;
+   margin-bottom: 20px;
+   padding: 10px;
+}
+
+.btn{
+   display: block;
+   width: 150px;
+   margin-left: 90px;
+   margin-bottom: 50px;
+   padding: 10px;
+   color: white;
+   background-color: red;
+}
+
+.btn:hover{
+   opacity: 0.7;
+}
+
+.btn:active{
+   background-color: black;
+   opacity: 0.2;
+}
+
+.list{
+   width: 500px;
+   margin: 0 auto;
+   padding: 0;
+   list-style-type: none;
+}
+
+.list__item{
+   margin-bottom: 10px;
+   padding: 10px;
+   color: white;
+}
+
+.item__strong{
+   font-size: 24px;
+   color: white;
+}
