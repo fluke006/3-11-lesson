@@ -36,9 +36,14 @@ elForm.addEventListener('submit' , function (evt){
 
       var itemStrong  = document.createElement('strong');
       itemStrong.setAttribute('class', 'item__strong');
-      itemStrong.textContent = itemTodos.name;
+      itemStrong.textContent = ' ' + itemTodos.name;
 
-      listItem.appendChild(itemStrong)
+      var itemButton = document.createElement('button');
+      itemButton.setAttribute('class', 'btn btn__item');
+      itemButton.textContent = `o'chirish`
+
+      listItem.appendChild(itemStrong);
+      listItem.appendChild(itemButton);
 
       elList.appendChild(listItem);
    }
