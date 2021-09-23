@@ -29,7 +29,7 @@ elForm.addEventListener('submit' , function (evt){
 
    todo.push(todos);
 
-   for (const itemTodos of todo) {
+   for (var itemTodos of todo) {
       var listItem = document.createElement('li');
       listItem.setAttribute('class', 'list__item');
       listItem.textContent = itemTodos.verb + ' ';
